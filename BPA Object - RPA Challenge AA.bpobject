@@ -1,0 +1,1766 @@
+﻿<process name="RPA Challenge AA" version="1.0" bpversion="7.0.0.40580" narrative="" byrefcollection="true" type="object" runmode="Exclusive" preferredid="c1d98412-546f-48bc-96fd-54f9fa5d6e36">
+  <appdef>
+    <element name="RPA Challenge AA">
+      <id>ebf17c69-adc5-4b59-8e6a-90732fe49566</id>
+      <group name="00-General">
+        <id>7f3cb6b5-e74b-459f-bf14-b04911d40e50</id>
+        <element name="01-Frame (WIN32)">
+          <id>89d0aa76-3954-4165-9a56-72a76fb3f6e2</id>
+          <type>Window</type>
+          <basetype>Window</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="WindowText" comparisontype="dynamic" inuse="True">
+              <ProcessValue datatype="text" value="Automation Anywhere Labs - Customer Onboarding - Internet Explorer" />
+            </attribute>
+            <attribute name="ClassName" inuse="True">
+              <ProcessValue datatype="text" value="IEFrame" />
+            </attribute>
+            <attribute name="CtrlID">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="36" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="36" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1201" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="676" />
+            </attribute>
+            <attribute name="Visible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="ScreenVisible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Active">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Ordinal">
+              <ProcessValue datatype="number" value="7" />
+            </attribute>
+            <attribute name="ChildCount">
+              <ProcessValue datatype="number" value="5" />
+            </attribute>
+            <attribute name="AncestorsText">
+              <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="TypeName">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:44,36,703,1228" />
+            </attribute>
+            <attribute name="Style">
+              <ProcessValue datatype="number" value="382664704" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="12-Address Bar">
+          <id>144fb4b0-5096-4e39-b2b7-2cc726c77dc5</id>
+          <type>AAEdit</type>
+          <basetype>AAEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="WindowText">
+              <ProcessValue datatype="text" value="https://www.msn.com/tr-tr/?ocid=YXPRM418&amp;clocalename=tr-TR" />
+            </attribute>
+            <attribute name="ClassName" inuse="True">
+              <ProcessValue datatype="text" value="Edit" />
+            </attribute>
+            <attribute name="CtrlID">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="26" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1175" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="16" />
+            </attribute>
+            <attribute name="Visible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="ScreenVisible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Active">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Ordinal">
+              <ProcessValue datatype="number" value="2" />
+            </attribute>
+            <attribute name="ChildCount">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="AncestorsText">
+              <ProcessValue datatype="text" value="Adres Çubuğu  Gezinti Çubuğu MSN Türkiye | Hava Durumu, Son Dakika Haber, Hotmail Aç, Outlook Giriş - Internet Explorer &lt;UNKNOWN&gt; " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="5" />
+            </attribute>
+            <attribute name="TypeName">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:96,32,47,1270" />
+            </attribute>
+            <attribute name="Style">
+              <ProcessValue datatype="number" value="1442906240" />
+            </attribute>
+            <attribute name="pWindowText" inuse="True">
+              <ProcessValue datatype="text" value="Adres Çubuğu" />
+            </attribute>
+            <attribute name="pClassName">
+              <ProcessValue datatype="text" value="Address Band Root" />
+            </attribute>
+            <attribute name="pCtrlID">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="pX">
+              <ProcessValue datatype="number" value="70" />
+            </attribute>
+            <attribute name="pY">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="pWidth">
+              <ProcessValue datatype="number" value="1258" />
+            </attribute>
+            <attribute name="pHeight">
+              <ProcessValue datatype="number" value="27" />
+            </attribute>
+            <attribute name="pVisible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pScreenVisible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pEnabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pActive">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pOrdinal">
+              <ProcessValue datatype="number" value="2" />
+            </attribute>
+            <attribute name="pChildCount">
+              <ProcessValue datatype="number" value="4" />
+            </attribute>
+            <attribute name="pStyle">
+              <ProcessValue datatype="number" value="1442906240" />
+            </attribute>
+            <attribute name="aX">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="aY">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="aWidth">
+              <ProcessValue datatype="number" value="1174" />
+            </attribute>
+            <attribute name="aHeight">
+              <ProcessValue datatype="number" value="15" />
+            </attribute>
+            <attribute name="Name">
+              <ProcessValue datatype="text" value="Yandex kullanarak adres ve arama" />
+            </attribute>
+            <attribute name="Description">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Role" inuse="True">
+              <ProcessValue datatype="text" value="Text" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="Self" />
+            </attribute>
+            <attribute name="State">
+              <ProcessValue datatype="text" value="odaklanabilir" />
+            </attribute>
+            <attribute name="Value2">
+              <ProcessValue datatype="text" value="https://www.msn.com/tr-tr/?ocid=YXPRM418&amp;clocalename=tr-TR" />
+            </attribute>
+            <attribute name="KeyboardShortcut">
+              <ProcessValue datatype="text" value="Alt+A" />
+            </attribute>
+            <attribute name="DefaultAction">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="ElementCount">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="aAncestorCount">
+              <ProcessValue datatype="number" value="11" />
+            </attribute>
+            <attribute name="Unavailable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Selected">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Focused">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Pressed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="aChecked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Mixed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="ReadOnly">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Hottracked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Default">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Expanded">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Collapsed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Busy">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Floating">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Marqueed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Animated">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Invisible">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Offscreen">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Sizeable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Moveable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="SelfVoicing">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Focusable">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Selectable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Linked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Traversed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Multiselectable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Extselectable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Alert_low">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Alert_medium">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Alert_high">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="paX">
+              <ProcessValue datatype="number" value="26" />
+            </attribute>
+            <attribute name="paY">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="paWidth">
+              <ProcessValue datatype="number" value="1174" />
+            </attribute>
+            <attribute name="paHeight">
+              <ProcessValue datatype="number" value="15" />
+            </attribute>
+            <attribute name="pName">
+              <ProcessValue datatype="text" value="Yandex kullanarak adres ve arama" />
+            </attribute>
+            <attribute name="pDescription">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="pRole" inuse="True">
+              <ProcessValue datatype="text" value="Window" />
+            </attribute>
+            <attribute name="pID">
+              <ProcessValue datatype="text" value="Self" />
+            </attribute>
+            <attribute name="pState">
+              <ProcessValue datatype="text" value="odaklanabilir" />
+            </attribute>
+            <attribute name="pValue2">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="pKeyboardShortcut" inuse="True">
+              <ProcessValue datatype="text" value="Alt+A" />
+            </attribute>
+            <attribute name="pDefaultAction">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="pElementCount">
+              <ProcessValue datatype="number" value="7" />
+            </attribute>
+            <attribute name="pUnavailable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pSelected">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pFocused">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pPressed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="paChecked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pMixed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pReadOnly">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pHottracked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pDefault">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pExpanded">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pCollapsed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pBusy">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pFloating">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pMarqueed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pAnimated">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pInvisible">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pOffscreen">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pSizeable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pMoveable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pSelfVoicing">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pFocusable">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pSelectable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pLinked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pTraversed">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pMultiselectable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pExtselectable">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pAlert_low">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pAlert_medium">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pAlert_high">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+      </group>
+      <group name="01-Elements">
+        <id>aac917c4-1483-4953-9eda-d9ed02a41c91</id>
+        <element name="01-CustomerName INPUT (HTML)">
+          <id>616de159-afdb-4d76-a17d-408b3a0e9e4f</id>
+          <type>HTMLEdit</type>
+          <basetype>HTMLEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="412" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="622" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1080" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(1)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="customerName" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="text" />
+            </attribute>
+            <attribute name="InputIdentifier2" inuse="True">
+              <ProcessValue datatype="text" value="customerName" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:412,556,594,1492" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="02-CustomerID INPUT (HTML)">
+          <id>15ee9e7b-6c95-46ea-a7f8-bc6df5693944</id>
+          <type>HTMLEdit</type>
+          <basetype>HTMLEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="412" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="680" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1080" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(2)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="customerID" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="text" />
+            </attribute>
+            <attribute name="InputIdentifier2" inuse="True">
+              <ProcessValue datatype="text" value="customerID " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:412,614,652,1492" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="03-Primary Contact INPUT (HTML)">
+          <id>0c984b2b-f7df-4ed8-961d-d7c3bfd35cdc</id>
+          <type>HTMLEdit</type>
+          <basetype>HTMLEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="412" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="738" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1080" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(3)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="primaryContact" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="text" />
+            </attribute>
+            <attribute name="InputIdentifier2" inuse="True">
+              <ProcessValue datatype="text" value="contact " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:412,442,480,1492" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="04-Street Address INPUT (HTML)">
+          <id>cf32484d-66b7-4676-b573-c328e7a03b9d</id>
+          <type>HTMLEdit</type>
+          <basetype>HTMLEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="412" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="796" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1080" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(4)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="street" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="text" />
+            </attribute>
+            <attribute name="InputIdentifier2" inuse="True">
+              <ProcessValue datatype="text" value="street " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:412,500,538,1492" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="05-City INPUT (HTML)">
+          <id>35d061ef-3f0a-453e-bf39-5a6e59e517a9</id>
+          <type>HTMLEdit</type>
+          <basetype>HTMLEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="5" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="353" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(5)/DIV(1)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="city" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="text" />
+            </attribute>
+            <attribute name="InputIdentifier2" inuse="True">
+              <ProcessValue datatype="text" value="city " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="7" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:412,558,596,765" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="06-State SELECT (HTML)">
+          <id>bacb874f-916f-4bea-9412-14dfce21de41</id>
+          <type>HTMLCombo</type>
+          <basetype>HTMLCombo</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="5" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="353" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(5)/DIV(2)/SELECT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="SELECT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="state" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType" inuse="True">
+              <ProcessValue datatype="text" value="select" />
+            </attribute>
+            <attribute name="InputIdentifier2">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="7" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="State AL AK AR AZ CA CO CT DC DE FL GA HI IA ID IL IN KS KY LA MA MD ME MI MN MO MS MT NC NE NH NJ NM NV NY ND OH OK OR PA RI SC SD TN TX UT VT VA WA WI WV WY " />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:775,558,596,1128" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="07-Zip INPUT (HTML)">
+          <id>941d2ae1-d40c-4beb-9a78-1bec292c9028</id>
+          <type>HTMLEdit</type>
+          <basetype>HTMLEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="5" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="353" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(5)/DIV(3)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="zip" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="text" />
+            </attribute>
+            <attribute name="InputIdentifier2" inuse="True">
+              <ProcessValue datatype="text" value="zip " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="7" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:1138,558,596,1492" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="08-eMail INPUT (HTML)">
+          <id>f4f161d0-2ed4-4735-a148-aa4dc4d5da28</id>
+          <type>HTML</type>
+          <basetype>HTML</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="412" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="912" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1080" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="38" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(6)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="form-control" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="email" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="email" />
+            </attribute>
+            <attribute name="InputIdentifier2" inuse="True">
+              <ProcessValue datatype="text" value="email" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:412,616,654,1492" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <group name="09-Active Discount Radio (HTML)">
+          <id>5a1ee640-de8a-471a-874c-d3cfb828c730</id>
+          <element name="radio YES">
+            <id>53ecaa70-beb1-485e-bcf5-67ddc7f6e516</id>
+            <type>HTMLRadioButton</type>
+            <basetype>HTMLRadioButton</basetype>
+            <datatype>flag</datatype>
+            <diagnose>False</diagnose>
+            <attributes>
+              <attribute name="X">
+                <ProcessValue datatype="number" value="0" />
+              </attribute>
+              <attribute name="Y">
+                <ProcessValue datatype="number" value="6" />
+              </attribute>
+              <attribute name="Width">
+                <ProcessValue datatype="number" value="13" />
+              </attribute>
+              <attribute name="Height">
+                <ProcessValue datatype="number" value="13" />
+              </attribute>
+              <attribute name="Path">
+                <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(7)/DIV(1)/DIV(1)/INPUT(1)" />
+              </attribute>
+              <attribute name="TagName" inuse="True">
+                <ProcessValue datatype="text" value="INPUT" />
+              </attribute>
+              <attribute name="ClassName">
+                <ProcessValue datatype="text" value="form-check-input" />
+              </attribute>
+              <attribute name="ID" inuse="True">
+                <ProcessValue datatype="text" value="activeDiscountYes" />
+              </attribute>
+              <attribute name="Title">
+                <ProcessValue datatype="text" value="" />
+              </attribute>
+              <attribute name="Link">
+                <ProcessValue datatype="text" value="" />
+              </attribute>
+              <attribute name="InputType" inuse="True">
+                <ProcessValue datatype="text" value="radio" />
+              </attribute>
+              <attribute name="InputIdentifier2" inuse="True">
+                <ProcessValue datatype="text" value="exampleRadios" />
+              </attribute>
+              <attribute name="AncestorCount">
+                <ProcessValue datatype="number" value="8" />
+              </attribute>
+              <attribute name="Value">
+                <ProcessValue datatype="text" value="option1" />
+              </attribute>
+              <attribute name="Enabled">
+                <ProcessValue datatype="flag" value="True" />
+              </attribute>
+              <attribute name="Checked">
+                <ProcessValue datatype="flag" value="False" />
+              </attribute>
+              <attribute name="pURL">
+                <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+              </attribute>
+              <attribute name="ScreenBounds">
+                <ProcessValue datatype="text" value="RECT:412,737,750,425" />
+              </attribute>
+              <attribute name="MatchIndex">
+                <ProcessValue datatype="number" value="1" />
+              </attribute>
+              <attribute name="MatchReverse">
+                <ProcessValue datatype="flag" value="True" />
+              </attribute>
+            </attributes>
+          </element>
+          <element name="radio NO">
+            <id>19fc15de-2f50-4002-a800-6d5bd5220016</id>
+            <type>HTMLRadioButton</type>
+            <basetype>HTMLRadioButton</basetype>
+            <datatype>flag</datatype>
+            <diagnose>False</diagnose>
+            <attributes>
+              <attribute name="X">
+                <ProcessValue datatype="number" value="0" />
+              </attribute>
+              <attribute name="Y">
+                <ProcessValue datatype="number" value="6" />
+              </attribute>
+              <attribute name="Width">
+                <ProcessValue datatype="number" value="13" />
+              </attribute>
+              <attribute name="Height">
+                <ProcessValue datatype="number" value="13" />
+              </attribute>
+              <attribute name="Path">
+                <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(7)/DIV(1)/DIV(2)/INPUT(1)" />
+              </attribute>
+              <attribute name="TagName" inuse="True">
+                <ProcessValue datatype="text" value="INPUT" />
+              </attribute>
+              <attribute name="ClassName">
+                <ProcessValue datatype="text" value="form-check-input" />
+              </attribute>
+              <attribute name="ID" inuse="True">
+                <ProcessValue datatype="text" value="activeDiscountNo" />
+              </attribute>
+              <attribute name="Title">
+                <ProcessValue datatype="text" value="" />
+              </attribute>
+              <attribute name="Link">
+                <ProcessValue datatype="text" value="" />
+              </attribute>
+              <attribute name="InputType" inuse="True">
+                <ProcessValue datatype="text" value="radio" />
+              </attribute>
+              <attribute name="InputIdentifier2" inuse="True">
+                <ProcessValue datatype="text" value="exampleRadios" />
+              </attribute>
+              <attribute name="AncestorCount">
+                <ProcessValue datatype="number" value="8" />
+              </attribute>
+              <attribute name="Value">
+                <ProcessValue datatype="text" value="option2" />
+              </attribute>
+              <attribute name="Enabled">
+                <ProcessValue datatype="flag" value="True" />
+              </attribute>
+              <attribute name="Checked">
+                <ProcessValue datatype="flag" value="False" />
+              </attribute>
+              <attribute name="pURL">
+                <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+              </attribute>
+              <attribute name="ScreenBounds">
+                <ProcessValue datatype="text" value="RECT:473,737,750,486" />
+              </attribute>
+              <attribute name="MatchIndex">
+                <ProcessValue datatype="number" value="1" />
+              </attribute>
+              <attribute name="MatchReverse">
+                <ProcessValue datatype="flag" value="True" />
+              </attribute>
+            </attributes>
+          </element>
+        </group>
+        <element name="10-NonDisc Aggreement CHECKBOX (HTML)">
+          <id>fb8bf86f-2649-4fa2-9595-69a9465cbd80</id>
+          <type>HTMLCheckBox</type>
+          <basetype>HTMLCheckBox</basetype>
+          <datatype>flag</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="5" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="45" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="13" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="13" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(7)/DIV(2)/LABEL(1)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="NDA" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType" inuse="True">
+              <ProcessValue datatype="text" value="checkbox" />
+            </attribute>
+            <attribute name="InputIdentifier2">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="8" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="on" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:957,736,749,970" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="11-Register Button (HTML)">
+          <id>6dff63ca-4be1-4959-84c7-a5a2f6426e46</id>
+          <type>HTML</type>
+          <basetype>HTML</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="412" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="1091" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="140" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="40" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(2)/DIV(1)/FORM(1)/DIV(8)/BUTTON(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="BUTTON" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="btn btn-orange" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="submit_button" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputIdentifier2">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="Value" inuse="True">
+              <ProcessValue datatype="text" value="Register" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?utm_source=challenge_page_success&amp;utm_medium=Developer%20Advocacy&amp;utm_campaign=customer_onboarding" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:412,795,835,552" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+      </group>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>HTMLLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files\Internet Explorer\iexplore.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>ActiveTabOnly</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>UseJavaInBrowser</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ExcludeHTC</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="6903f27b-47bd-4146-b573-b23378916cf5" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="b6752407-be2a-417c-aa37-a9d025d37aab" type="Normal" published="True">
+    <name>Main Flow</name>
+    <view>
+      <camerax>-63</camerax>
+      <cameray>36</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="0bdc2d65-e5d1-44f0-9ae0-a73089f29210" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>d2dcd228-90a1-4094-b757-dac33f1f85ca</onsuccess>
+  </stage>
+  <stage stageid="d2dcd228-90a1-4094-b757-dac33f1f85ca" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="7557c938-0efe-4311-bf12-91afe252687a" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+      <reference>System.IO.FileSystem.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+      <import>System.IO</import>
+    </imports>
+    <language>csharp</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="ae991afa-a931-4114-ad8c-6f3eb18b5b69" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>6903f27b-47bd-4146-b573-b23378916cf5</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="87f423b0-bb9e-440a-be80-6c58e65fc27b" name="Start" type="Start">
+    <subsheetid>6903f27b-47bd-4146-b573-b23378916cf5</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>c99878c5-bc18-47df-8733-4d250e0c1f12</onsuccess>
+  </stage>
+  <stage stageid="c99878c5-bc18-47df-8733-4d250e0c1f12" name="End" type="End">
+    <subsheetid>6903f27b-47bd-4146-b573-b23378916cf5</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="5158b19e-3214-4539-bf1b-1fcf9d1acf3e" name="Main Flow" type="SubSheetInfo">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <display x="-270" y="-120" w="180" h="90" />
+  </stage>
+  <stage stageid="38084652-35ef-4dd1-a70c-d166e5ee5636" name="Start" type="Start">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="-255" />
+    <inputs>
+      <input type="text" name="FilePath - CSV Data" stage="FilePath - CSV Data" />
+    </inputs>
+    <onsuccess>556118bd-2bc3-4283-8eec-db43f35e4896</onsuccess>
+  </stage>
+  <stage stageid="a8fb90c7-76c3-4134-85d9-eeacc3934d40" name="End" type="End">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="540" />
+  </stage>
+  <stage stageid="24321bbf-7dbf-4c6d-8268-2d5d0e08c7be" name="" type="Note">
+    <subsheetid>6903f27b-47bd-4146-b573-b23378916cf5</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="8049272e-b7f5-411a-8abe-5c5100b5eee1" name="" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="556118bd-2bc3-4283-8eec-db43f35e4896" name="getCSVElements" type="Code">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="-195" w="120" h="30" />
+    <inputs>
+      <input type="text" name="fp" expr="[FilePath - CSV Data]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="rez" stage="CSV Coll" />
+    </outputs>
+    <onsuccess>a81fa461-4756-48a9-8525-cdbdc20086ac</onsuccess>
+    <code><![CDATA[DataTable dt = new DataTable();
+
+string[] lines = File.ReadAllLines(fp);  
+
+for (int i = 0; i < lines.Length; i++)
+{
+	string[] eachLine = lines[i].Split(',');
+	if(i==0)
+	{
+		for(int j=0;j<eachLine.Length;j++)
+		{
+			dt.Columns.Add(eachLine[j],typeof(string));
+		}			
+	}
+	else 
+	{
+		dt.Rows.Add();
+		for(int j=0;j<eachLine.Length;j++)
+		{
+			dt.Rows[i-1][j] = eachLine[j];
+		}			
+	}		
+}
+
+
+rez = dt;]]></code>
+  </stage>
+  <stage stageid="84f01c66-9634-4ae6-8223-7ea621438dc7" name="CSV Coll" type="Collection">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <display x="-270" y="90" w="150" h="30" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="729e6509-6e4c-4670-8f4b-51c916a8004e" name="ForEach CSV Row" type="LoopStart">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="0" w="270" h="30" />
+    <onsuccess>a2523b42-1f8d-4646-9d0c-510d9821ed58</onsuccess>
+    <groupid>a2c98ad4-8c03-442d-ab7c-233d91586ae6</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>CSV Coll</loopdata>
+  </stage>
+  <stage stageid="961bf35d-4eaa-44c1-a4e9-e745067dd7f2" name="ForEach CSV Row" type="LoopEnd">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="405" w="270" h="30" />
+    <onsuccess>06f7ce85-4d0e-464b-a299-931d87a76b3b</onsuccess>
+    <groupid>a2c98ad4-8c03-442d-ab7c-233d91586ae6</groupid>
+  </stage>
+  <stage stageid="a2523b42-1f8d-4646-9d0c-510d9821ed58" name="Write Inputs" type="Write">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="60" w="120" h="30" />
+    <onsuccess>2d53658e-ad49-4fc1-a666-47748423f4ca</onsuccess>
+    <step expr="[CSV Coll.Company Name]">
+      <element id="616de159-afdb-4d76-a17d-408b3a0e9e4f" />
+    </step>
+    <step expr="[CSV Coll.Customer ID]">
+      <element id="15ee9e7b-6c95-46ea-a7f8-bc6df5693944" />
+    </step>
+    <step expr="[CSV Coll.Primary Contact]">
+      <element id="0c984b2b-f7df-4ed8-961d-d7c3bfd35cdc" />
+    </step>
+    <step expr="[CSV Coll.Street Address]">
+      <element id="cf32484d-66b7-4676-b573-c328e7a03b9d" />
+    </step>
+    <step expr="[CSV Coll.City]">
+      <element id="35d061ef-3f0a-453e-bf39-5a6e59e517a9" />
+    </step>
+    <step expr="[CSV Coll.Zip]">
+      <element id="941d2ae1-d40c-4beb-9a78-1bec292c9028" />
+    </step>
+    <step expr="[CSV Coll.Email Address]">
+      <element id="f4f161d0-2ed4-4735-a148-aa4dc4d5da28" />
+    </step>
+  </stage>
+  <stage stageid="2d53658e-ad49-4fc1-a666-47748423f4ca" name="Offers Discounts?" type="Decision">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="120" w="90" h="30" />
+    <decision expression="[CSV Coll.Offers Discounts] = &quot;YES&quot;" />
+    <ontrue>4a9c73f7-cb86-462f-9f34-243013a9ddbf</ontrue>
+    <onfalse>728f8f01-4778-498d-8fec-316e9afdc5aa</onfalse>
+  </stage>
+  <stage stageid="4a9c73f7-cb86-462f-9f34-243013a9ddbf" name="Set YES and Select State" type="Navigate">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="75" y="195" w="90" h="30" />
+    <onsuccess>29f817ed-0239-406e-bcc8-1ac6c1dd3570</onsuccess>
+    <step>
+      <element id="53ecaa70-beb1-485e-bcf5-67ddc7f6e516" />
+      <action>
+        <id>SetChecked</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>True</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="bacb874f-916f-4bea-9412-14dfce21de41" />
+      <action>
+        <id>HTMLSelectItem</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>position</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>propname</id>
+            <value>[CSV Coll.State]</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="728f8f01-4778-498d-8fec-316e9afdc5aa" name="Set NO and Select State" type="Navigate">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="-45" y="195" w="90" h="30" />
+    <onsuccess>29f817ed-0239-406e-bcc8-1ac6c1dd3570</onsuccess>
+    <step>
+      <element id="19fc15de-2f50-4002-a800-6d5bd5220016" />
+      <action>
+        <id>SetChecked</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>True</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="bacb874f-916f-4bea-9412-14dfce21de41" />
+      <action>
+        <id>HTMLSelectItem</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>position</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>propname</id>
+            <value>[CSV Coll.State]</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="29f817ed-0239-406e-bcc8-1ac6c1dd3570" name="Non-Disclosure On File" type="Decision">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="270" w="90" h="30" />
+    <decision expression="[CSV Coll.Non-Disclosure On File] = &quot;YES&quot;" />
+    <ontrue>2a0832de-2a65-4097-b26c-d9b22fafdb76</ontrue>
+    <onfalse>5c781d29-35ed-4e08-8158-6024560b8995</onfalse>
+  </stage>
+  <stage stageid="2a0832de-2a65-4097-b26c-d9b22fafdb76" name="NDA Check Box" type="Navigate">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="135" y="270" w="90" h="30" />
+    <onsuccess>5c781d29-35ed-4e08-8158-6024560b8995</onsuccess>
+    <step>
+      <element id="fb8bf86f-2649-4fa2-9595-69a9465cbd80" />
+      <action>
+        <id>SetChecked</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>True</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="5c781d29-35ed-4e08-8158-6024560b8995" name="Register Click" type="Navigate">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="345" w="90" h="30" />
+    <onsuccess>961bf35d-4eaa-44c1-a4e9-e745067dd7f2</onsuccess>
+    <step>
+      <element id="6dff63ca-4be1-4959-84c7-a5a2f6426e46" />
+      <action>
+        <id>HTMLClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="06f7ce85-4d0e-464b-a299-931d87a76b3b" name="Activate n Max" type="Navigate">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="15" y="465" />
+    <onsuccess>a8fb90c7-76c3-4134-85d9-eeacc3934d40</onsuccess>
+    <step>
+      <element id="89d0aa76-3954-4165-9a56-72a76fb3f6e2">
+        <elementparameter>
+          <name>WindowText</name>
+          <expression>"Automation*"</expression>
+          <datatype>text</datatype>
+          <comparisontype>Wildcard</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>ActivateApp</id>
+      </action>
+    </step>
+    <step>
+      <element id="89d0aa76-3954-4165-9a56-72a76fb3f6e2">
+        <elementparameter>
+          <name>WindowText</name>
+          <expression>"Automation*"</expression>
+          <datatype>text</datatype>
+          <comparisontype>Wildcard</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>MaximiseWindow</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="a81fa461-4756-48a9-8525-cdbdc20086ac" name="Launch" type="Navigate">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="-75" y="-135" />
+    <onsuccess>5036e14c-c006-49cf-bbcb-7370cccaeeea</onsuccess>
+    <step>
+      <element id="ebf17c69-adc5-4b59-8e6a-90732fe49566" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>[URL]</value>
+          </argument>
+          <argument>
+            <id>ActiveTabOnly</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>UseJavaInBrowser</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ExcludeHTC</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="429b800c-82dd-4371-99f6-07de5cf892ca" name="URL" type="Data">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="-270" y="45" w="150" h="30" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">https://developer.automationanywhere.com/challenges/automationanywherelabs-customeronboarding.html?</initialvalue>
+    <alwaysinit />
+  </stage>
+  <stage stageid="bb1842e3-a5ac-4bac-8858-958a2e9f25f1" name="Time Out - Wait01-01" type="WaitEnd">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="105" y="-60" w="30" h="30" />
+    <onsuccess>729e6509-6e4c-4670-8f4b-51c916a8004e</onsuccess>
+    <groupid>d4b4cdb9-bd0c-4bd0-9fe2-cc62220cdd32</groupid>
+  </stage>
+  <stage stageid="5036e14c-c006-49cf-bbcb-7370cccaeeea" name="Wait01-01" type="WaitStart">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="-75" y="-60" w="30" h="30" />
+    <groupid>d4b4cdb9-bd0c-4bd0-9fe2-cc62220cdd32</groupid>
+    <choices>
+      <choice reply="True">
+        <name>01-CustomerName INPUT (HTML) Check Exists</name>
+        <distance>90</distance>
+        <ontrue>729e6509-6e4c-4670-8f4b-51c916a8004e</ontrue>
+        <element id="616de159-afdb-4d76-a17d-408b3a0e9e4f" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>11</timeout>
+  </stage>
+  <stage stageid="c2e4b44b-a804-45a4-b44a-be6f831d0a4d" name="FilePath - CSV Data" type="Data">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="-270" y="-30" w="150" h="30" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">C:\Users\USER\Downloads\MissingCustomers.csv</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="51144e4f-15e9-4905-a905-0cd187ab2787" name="UPDATE THE FILEPATH" type="Block">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="-360" y="-60" w="180" h="60" />
+    <font family="Segoe UI" size="10" style="Regular" color="00FF00" />
+  </stage>
+  <stage stageid="e604adbb-92ed-4007-b411-1662f3a20e93" name="Other Data Items" type="Block">
+    <subsheetid>b6752407-be2a-417c-aa37-a9d025d37aab</subsheetid>
+    <loginhibit />
+    <display x="-360" y="15" w="180" h="105" />
+    <font family="Segoe UI" size="10" style="Regular" color="333333" />
+  </stage>
+</process>
